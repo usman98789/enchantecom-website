@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/enchantecom-website/static/css/main.6e5b31ee.chunk.css",
+    "main.js": "/enchantecom-website/static/js/main.93ed6717.chunk.js",
+    "main.js.map": "/enchantecom-website/static/js/main.93ed6717.chunk.js.map",
+    "runtime-main.js": "/enchantecom-website/static/js/runtime-main.747ed6b2.js",
+    "runtime-main.js.map": "/enchantecom-website/static/js/runtime-main.747ed6b2.js.map",
+    "static/js/2.153e90c1.chunk.js": "/enchantecom-website/static/js/2.153e90c1.chunk.js",
+    "static/js/2.153e90c1.chunk.js.map": "/enchantecom-website/static/js/2.153e90c1.chunk.js.map",
+    "index.html": "/enchantecom-website/index.html",
+    "precache-manifest.306983f1ef4359910d491c6872e888f7.js": "/enchantecom-website/precache-manifest.306983f1ef4359910d491c6872e888f7.js",
+    "service-worker.js": "/enchantecom-website/service-worker.js",
+    "static/css/main.6e5b31ee.chunk.css.map": "/enchantecom-website/static/css/main.6e5b31ee.chunk.css.map",
+    "static/js/2.153e90c1.chunk.js.LICENSE.txt": "/enchantecom-website/static/js/2.153e90c1.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/enchantecom-website/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/feature-tile-icon-01.svg": "/enchantecom-website/static/media/feature-tile-icon-01.0f9928d7.svg",
+    "static/media/feature-tile-icon-02.svg": "/enchantecom-website/static/media/feature-tile-icon-02.bd39f304.svg",
+    "static/media/feature-tile-icon-03.svg": "/enchantecom-website/static/media/feature-tile-icon-03.66f37ba5.svg",
+    "static/media/features-split-image-01.png": "/enchantecom-website/static/media/features-split-image-01.d9cb99ce.png",
+    "static/media/logo2.png": "/enchantecom-website/static/media/logo2.8679cc58.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.747ed6b2.js",
+    "static/js/2.153e90c1.chunk.js",
+    "static/css/main.6e5b31ee.chunk.css",
+    "static/js/main.93ed6717.chunk.js"
+  ]
+}
