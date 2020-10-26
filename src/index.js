@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router } from "react-router-dom";
+import { Router, BrowserRouter } from "react-router-dom";
 import { createBrowserHistory } from "history";
+import dotenv from 'dotenv';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -10,11 +11,12 @@ import * as serviceWorker from './serviceWorker';
 import './assets/scss/style.scss';
 
 const history = createBrowserHistory();
+dotenv.config();
 
 ReactDOM.render(
-  <Router history={history}>
+  <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
     <App />
-  </Router>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

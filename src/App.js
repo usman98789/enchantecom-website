@@ -43,8 +43,9 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-          <AppRoute exact path={PUBLIC_URL + "/policy/psav"} component={PSAVPolicy} layout={LayoutDefault} />
+          <AppRoute exact path="/policy/psav" component={PSAVPolicy} layout={LayoutDefault} />
         </Switch>
+
       )} />
   );
 }
