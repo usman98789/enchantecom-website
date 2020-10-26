@@ -61,17 +61,18 @@ const Hero = ({
 							className="mt-0 mb-16 reveal-from-bottom"
 							data-reveal-delay="200"
 						>
-							E-commerce apps for you
+							{(props.header != undefined) ? props.header : "Ecommerce apps for you"}
 						</h2>
 						<div className="container-xs">
 							<p
 								className="m-0 mb-32 reveal-from-bottom"
 								data-reveal-delay="400"
 							>
-								The best e-commerce apps designed to improve your store, enhance
-								sales and user experience
+								{(props.text != undefined) ? props.text : " \
+								The best e-commerce apps designed to improve your store, enhance \
+								sales and user experience"}
 							</p>
-							<div className="reveal-from-bottom" data-reveal-delay="600">
+							{/* <div className="reveal-from-bottom" data-reveal-delay="600">
 								<ButtonGroup>
 									<Button
 										tag="a"
@@ -82,7 +83,7 @@ const Hero = ({
 										See us on Shopify
 									</Button>
 								</ButtonGroup>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>

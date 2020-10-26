@@ -66,7 +66,10 @@ const FeaturesSplit = ({
 							>
 								<h3 className="mt-0 mb-12">Product Specific Age Verifier</h3>
 								<p className="m-0">
-									A paragraph of our age verifier app with button.
+								You want to be compliant with local laws by prohibiting under age users but
+								why should you have to restrict all your products? With our app, you can choose
+								the products you want to be restricted and set any age you want (not just 18, 19, 21).
+								Get compliant in less than 1 minute!
 								</p>
 							</div>
 							<div
@@ -77,7 +80,7 @@ const FeaturesSplit = ({
 								data-reveal-container=".split-item"
 							>
 								<Image
-									src={require("./../../assets/images/features-split-image-01.png")}
+									src={require("./../../assets/images/psav.PNG")}
 									alt="Features split 01"
 									width={528}
 									height={396}
