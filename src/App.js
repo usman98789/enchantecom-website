@@ -3,6 +3,7 @@ import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
+import dotenv from 'dotenv';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
@@ -10,6 +11,8 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views 
 import Home from './views/Home';
 import PSAVPolicy from './views/PrivacyPolicy/PSAVPolicy';
+
+dotenv.config();
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -23,6 +26,8 @@ const App = () => {
 
   const childRef = useRef();
   let location = useLocation();
+
+  const PUBLIC_URL = process.env.PUBLIC_URL;
 
   useEffect(() => {
     const page = location.pathname;
@@ -38,7 +43,7 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-          <AppRoute exact path="/policy/psav" component={PSAVPolicy} layout={LayoutDefault} />
+          <AppRoute exact path={PUBLIC_URL + "/policy/psav"} component={PSAVPolicy} layout={LayoutDefault} />
         </Switch>
       )} />
   );
