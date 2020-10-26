@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "https://enchantecom.com/static/css/main.befedc2c.chunk.css",
+    "main.js": "https://enchantecom.com/static/js/main.9923119e.chunk.js",
+    "main.js.map": "https://enchantecom.com/static/js/main.9923119e.chunk.js.map",
+    "runtime-main.js": "https://enchantecom.com/static/js/runtime-main.b234aa98.js",
+    "runtime-main.js.map": "https://enchantecom.com/static/js/runtime-main.b234aa98.js.map",
+    "static/js/2.c8a953ff.chunk.js": "https://enchantecom.com/static/js/2.c8a953ff.chunk.js",
+    "static/js/2.c8a953ff.chunk.js.map": "https://enchantecom.com/static/js/2.c8a953ff.chunk.js.map",
+    "index.html": "https://enchantecom.com/index.html",
+    "precache-manifest.f7f91c602e2612b75b5d982d20323b71.js": "https://enchantecom.com/precache-manifest.f7f91c602e2612b75b5d982d20323b71.js",
+    "service-worker.js": "https://enchantecom.com/service-worker.js",
+    "static/css/main.befedc2c.chunk.css.map": "https://enchantecom.com/static/css/main.befedc2c.chunk.css.map",
+    "static/js/2.c8a953ff.chunk.js.LICENSE.txt": "https://enchantecom.com/static/js/2.c8a953ff.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "https://enchantecom.com/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/feature-tile-icon-01.svg": "https://enchantecom.com/static/media/feature-tile-icon-01.0f9928d7.svg",
+    "static/media/feature-tile-icon-02.svg": "https://enchantecom.com/static/media/feature-tile-icon-02.bd39f304.svg",
+    "static/media/feature-tile-icon-03.svg": "https://enchantecom.com/static/media/feature-tile-icon-03.66f37ba5.svg",
+    "static/media/logo2.png": "https://enchantecom.com/static/media/logo2.8679cc58.png",
+    "static/media/psav.PNG": "https://enchantecom.com/static/media/psav.1c477f39.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b234aa98.js",
+    "static/js/2.c8a953ff.chunk.js",
+    "static/css/main.befedc2c.chunk.css",
+    "static/js/main.9923119e.chunk.js"
+  ]
+}
