@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc0d28de157c7b4fd2032803be0a9376",
+    "revision": "e2e64ab336e9302bb64efbdd93e11dd2",
     "url": "https://enchantecom.com/index.html"
   },
   {
-    "revision": "ab713ee88c13503fd9f8",
+    "revision": "0f10e4a3942282d45dc0",
     "url": "https://enchantecom.com/static/css/main.befedc2c.chunk.css"
   },
   {
-    "revision": "1facda66b8290542ba3c",
-    "url": "https://enchantecom.com/static/js/2.c8a953ff.chunk.js"
+    "revision": "b152d3fa06ddab925d67",
+    "url": "https://enchantecom.com/static/js/2.69e9b64e.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "https://enchantecom.com/static/js/2.c8a953ff.chunk.js.LICENSE.txt"
+    "url": "https://enchantecom.com/static/js/2.69e9b64e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ab713ee88c13503fd9f8",
-    "url": "https://enchantecom.com/static/js/main.9923119e.chunk.js"
+    "revision": "0f10e4a3942282d45dc0",
+    "url": "https://enchantecom.com/static/js/main.22886f5c.chunk.js"
   },
   {
     "revision": "711d72ff98c418fc4f8f",
