@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://enchantecom.com/static/css/main.37794cae.chunk.css",
-    "main.js": "https://enchantecom.com/static/js/main.2ac6f276.chunk.js",
-    "main.js.map": "https://enchantecom.com/static/js/main.2ac6f276.chunk.js.map",
+    "main.js": "https://enchantecom.com/static/js/main.008ba4fc.chunk.js",
+    "main.js.map": "https://enchantecom.com/static/js/main.008ba4fc.chunk.js.map",
     "runtime-main.js": "https://enchantecom.com/static/js/runtime-main.b234aa98.js",
     "runtime-main.js.map": "https://enchantecom.com/static/js/runtime-main.b234aa98.js.map",
     "static/js/2.a80d3dd1.chunk.js": "https://enchantecom.com/static/js/2.a80d3dd1.chunk.js",
     "static/js/2.a80d3dd1.chunk.js.map": "https://enchantecom.com/static/js/2.a80d3dd1.chunk.js.map",
     "index.html": "https://enchantecom.com/index.html",
-    "precache-manifest.fbcc4ee83c2d52a42486ce70d548a2de.js": "https://enchantecom.com/precache-manifest.fbcc4ee83c2d52a42486ce70d548a2de.js",
+    "precache-manifest.2080eecb5cc2dc485d39cbf25841e28a.js": "https://enchantecom.com/precache-manifest.2080eecb5cc2dc485d39cbf25841e28a.js",
     "service-worker.js": "https://enchantecom.com/service-worker.js",
     "static/css/main.37794cae.chunk.css.map": "https://enchantecom.com/static/css/main.37794cae.chunk.css.map",
     "static/js/2.a80d3dd1.chunk.js.LICENSE.txt": "https://enchantecom.com/static/js/2.a80d3dd1.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.b234aa98.js",
     "static/js/2.a80d3dd1.chunk.js",
     "static/css/main.37794cae.chunk.css",
-    "static/js/main.2ac6f276.chunk.js"
+    "static/js/main.008ba4fc.chunk.js"
   ]
 }

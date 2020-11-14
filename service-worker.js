@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://enchantecom.com/precache-manifest.fbcc4ee83c2d52a42486ce70d548a2de.js"
+  "https://enchantecom.com/precache-manifest.2080eecb5cc2dc485d39cbf25841e28a.js"
 );
 
 self.addEventListener('message', (event) => {
