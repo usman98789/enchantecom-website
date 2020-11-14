@@ -72,18 +72,18 @@ const Hero = ({
 								The best e-commerce apps designed to improve your store, enhance \
 								sales and user experience"}
 							</p>
-							{/* <div className="reveal-from-bottom" data-reveal-delay="600">
+							<div className="reveal-from-bottom" data-reveal-delay="600">
 								<ButtonGroup>
 									<Button
 										tag="a"
 										color="primary"
 										wideMobile
-										href="https://cruip.com/"
+										href="https://apps.shopify.com/partners/ecom-elevate"
 									>
 										See us on Shopify
 									</Button>
 								</ButtonGroup>
-							</div> */}
+							</div>
 						</div>
 					</div>
 				</div>

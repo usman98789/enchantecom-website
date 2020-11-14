@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, BrowserRouter } from "react-router-dom";
+import { Router, HashRouter } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import dotenv from 'dotenv';
 
@@ -14,9 +14,9 @@ const history = createBrowserHistory();
 dotenv.config();
 
 ReactDOM.render(
-  <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
+  <HashRouter history={history} basename="/">
     <App />
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 

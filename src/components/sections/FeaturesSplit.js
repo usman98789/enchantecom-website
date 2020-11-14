@@ -3,6 +3,8 @@ import classNames from "classnames";
 import { SectionSplitProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 import Image from "../elements/Image";
+import ButtonGroup from "../elements/ButtonGroup";
+import Button from "../elements/Button";
 
 const propTypes = {
 	...SectionSplitProps.types,
@@ -71,6 +73,19 @@ const FeaturesSplit = ({
 								the products you want to be restricted and set any age you want (not just 18, 19, 21).
 								Get compliant in less than 1 minute!
 								</p>
+								<div className="reveal-from-bottom" data-reveal-delay="600" style={{marginTop: 20}}>
+								<ButtonGroup>
+									<Button
+										tag="a"
+										color="primary"
+										wideMobile
+										target="_blank"
+										href="https://apps.shopify.com/test-app-489?surface_detail=product+specific+age+verifier&surface_inter_position=1&surface_intra_position=4&surface_type=search"
+									>
+										Install Now
+									</Button>
+								</ButtonGroup>
+							</div>
 							</div>
 							<div
 								className={classNames(

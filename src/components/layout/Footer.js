@@ -36,7 +36,7 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
 						{/* <FooterSocial /> */}
 					</div>
 					<div className="footer-bottom space-between text-xxs invert-order-desktop">
-						{/* <FooterNav /> */}
+						<FooterNav />
 						<div className="footer-copyright">
 							Enchant Ecom. All right reserved
 						</div>
