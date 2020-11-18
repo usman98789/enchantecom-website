@@ -70,7 +70,7 @@ const FeaturesSplit = ({
 								<p className="m-0">
 								You want to be compliant with local laws by prohibiting under age users but
 								why should you have to restrict all your products? With our app, you can choose
-								the products you want to be restricted and set any age you want (not just 18, 19, 21).
+								the products or collections that need to be restricted and set any age ranging from 16-25.
 								Get compliant in less than 1 minute!
 								</p>
 								<div className="reveal-from-bottom" data-reveal-delay="600" style={{marginTop: 20}}>
@@ -80,7 +80,7 @@ const FeaturesSplit = ({
 										color="primary"
 										wideMobile
 										target="_blank"
-										href="https://apps.shopify.com/test-app-489?surface_detail=product+specific+age+verifier&surface_inter_position=1&surface_intra_position=4&surface_type=search"
+										href="https://apps.shopify.com/product-specific-age-verifier"
 									>
 										Install Now
 									</Button>
