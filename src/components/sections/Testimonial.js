@@ -2,6 +2,7 @@ import React from "react";
 import classNames from "classnames";
 import { SectionTilesProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
+import FiveStars from "../elements/FiveStar";
 
 const propTypes = {
 	...SectionTilesProps.types
@@ -57,19 +58,17 @@ const Testimonial = ({
 							<div className="tiles-item-inner">
 								<div className="testimonial-item-content">
 									<p className="text-sm mb-0">
-										— Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat non proident, sunt in culpa qui officia
-										deserunt mollit anim id est laborum cillum dolore eu fugiat.
+									Super easy to set up and able to set to a certain collection. I set up a collection called 18+ with automatic tag qualifier, added the tag to the products i needed restricted and BAM all done. Customisable text is a sweet feature too. Only thing i'd change would be an opaque screen behind the pop-up so you can't see the product until you confirm :)
 									</p>
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+									<FiveStars/>
 									<span className="testimonial-item-name text-color-high">
-										Roman Level
+										Burubado
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">AppName</a>
+										<a href="#0">Product Specifc Age Verifier</a>
 									</span>
 								</div>
 							</div>
@@ -79,19 +78,17 @@ const Testimonial = ({
 							<div className="tiles-item-inner">
 								<div className="testimonial-item-content">
 									<p className="text-sm mb-0">
-										— Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat non proident, sunt in culpa qui officia
-										deserunt mollit anim id est laborum cillum dolore eu fugiat.
+										App works well, does exactly what I need it to do. Customer support was also very responsive and helpful when I need some assistance. Would recommend.
 									</p>
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+									<FiveStars/>
 									<span className="testimonial-item-name text-color-high">
-										Diana Rynzhuk
+										Style N Sport
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">AppName</a>
+										<a href="#0">Ultimate Product Warning</a>
 									</span>
 								</div>
 							</div>
@@ -104,19 +101,17 @@ const Testimonial = ({
 							<div className="tiles-item-inner">
 								<div className="testimonial-item-content">
 									<p className="text-sm mb-0">
-										— Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat non proident, sunt in culpa qui officia
-										deserunt mollit anim id est laborum cillum dolore eu fugiat.
+										Took just a few steps to setup, less than 5 minutes. It works just as described and meets my needs to restrict SOME but not all products to my legal requirements. My non-restricted products work just as normal. I didn't need to reach out to their support since they have step by step instructions in the app itself.
 									</p>
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+									<FiveStars/>
 									<span className="testimonial-item-name text-color-high">
-										Ben Stafford
+										DMG, LLC
 									</span>
 									<span className="text-color-low"> / </span>
 									<span className="testimonial-item-link">
-										<a href="#0">AppName</a>
+										<a href="#0">Product Specific Age Verifier</a>
 									</span>
 								</div>
 							</div>

@@ -59,7 +59,7 @@ const Hero = ({
 						<h2
 							style={{ color: "white" }}
 							className="mt-0 mb-16 reveal-from-bottom"
-							data-reveal-delay="200"
+							data-reveal-delay="100"
 						>
 							{(props.header != undefined) ? props.header : "Ecommerce apps for you"}
 						</h2>

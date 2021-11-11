@@ -3,8 +3,7 @@ import classNames from "classnames";
 import { SectionSplitProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 import Image from "../elements/Image";
-import ButtonGroup from "../elements/ButtonGroup";
-import Button from "../elements/Button";
+import FiveStars from "../elements/FiveStar";
 
 const propTypes = {
 	...SectionSplitProps.types,
@@ -61,31 +60,48 @@ const FeaturesSplit = ({
 				<div className={innerClasses}>
 					<SectionHeader data={sectionHeader} className="center-content" />
 					<div className={splitClasses}>
+					<div className="split-item">
+							<div
+								className="split-item-content center-content-mobile reveal-from-left"
+								data-reveal-container=".split-item"
+							>
+								<h3 className="mt-0 mb-12">Ultimate Product Warning</h3>
+								<FiveStars/>
+								<p className="m-0">
+									Protect yourself and your customers through the Ultimate Product Warning. 
+									Inform your customers of shipping delays, hazardous products, and any other 
+									necessary information to allow your customers to make an informed purchase.
+								</p>
+							</div>
+							<div
+								className={classNames(
+									"split-item-image center-content-mobile reveal-from-bottom",
+									imageFill && "split-item-image-fill"
+								)}
+								data-reveal-container=".split-item"
+							>
+								<Image
+									src={require("./../../assets/images/upw.PNG")}
+									alt="Features split 01"
+									width={528}
+									height={396}
+								/>
+							</div>
+						</div>
+
 						<div className="split-item">
 							<div
 								className="split-item-content center-content-mobile reveal-from-left"
 								data-reveal-container=".split-item"
 							>
 								<h3 className="mt-0 mb-12">Product Specific Age Verifier</h3>
+								<FiveStars/>
 								<p className="m-0">
 								You want to be compliant with local laws by prohibiting under age users but
 								why should you have to restrict all your products? With our app, you can choose
 								the products you want to be restricted and set any age you want (not just 18, 19, 21).
 								Get compliant in less than 1 minute!
 								</p>
-								<div className="reveal-from-bottom" data-reveal-delay="600" style={{marginTop: 20}}>
-								<ButtonGroup>
-									<Button
-										tag="a"
-										color="primary"
-										wideMobile
-										target="_blank"
-										href="https://apps.shopify.com/test-app-489?surface_detail=product+specific+age+verifier&surface_inter_position=1&surface_intra_position=4&surface_type=search"
-									>
-										Install Now
-									</Button>
-								</ButtonGroup>
-							</div>
 							</div>
 							<div
 								className={classNames(
