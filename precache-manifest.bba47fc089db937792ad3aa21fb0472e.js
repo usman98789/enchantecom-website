@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ffbb8dcfba6b6a60b3d5fb368c970ab5",
+    "revision": "65b8e1585160e19e8b32b75060c8ae01",
     "url": "https://enchantecom.com/index.html"
   },
   {
-    "revision": "969e1657eea6f29f7c24",
+    "revision": "9df478a77140ce7bb0f8",
     "url": "https://enchantecom.com/static/css/main.37794cae.chunk.css"
   },
   {
-    "revision": "92ad765321f9c1bf85ec",
-    "url": "https://enchantecom.com/static/js/2.a80d3dd1.chunk.js"
+    "revision": "3c47631c6f869310aeb5",
+    "url": "https://enchantecom.com/static/js/2.7d496823.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "https://enchantecom.com/static/js/2.a80d3dd1.chunk.js.LICENSE.txt"
+    "url": "https://enchantecom.com/static/js/2.7d496823.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "969e1657eea6f29f7c24",
-    "url": "https://enchantecom.com/static/js/main.008ba4fc.chunk.js"
+    "revision": "9df478a77140ce7bb0f8",
+    "url": "https://enchantecom.com/static/js/main.c099eb2b.chunk.js"
   },
   {
     "revision": "711d72ff98c418fc4f8f",
@@ -56,7 +56,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://enchantecom.com/static/media/illustration-section-02.63d0555d.svg"
   },
   {
-    "revision": "1c477f39dfa781dcae4e2c8d368003f6",
-    "url": "https://enchantecom.com/static/media/psav.1c477f39.PNG"
+    "revision": "619f99ba33c4c0a4194dca6e9c540a24",
+    "url": "https://enchantecom.com/static/media/psav.619f99ba.PNG"
+  },
+  {
+    "revision": "45dd54703cf1537d439bc358c680762c",
+    "url": "https://enchantecom.com/static/media/star.45dd5470.png"
+  },
+  {
+    "revision": "8f8982ce98d33add89056e78f12fdc5e",
+    "url": "https://enchantecom.com/static/media/upw.8f8982ce.PNG"
   }
 ]);
