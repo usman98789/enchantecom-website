@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f72164f8edbbe62e7997335b99439f2a",
+    "revision": "ffbb8dcfba6b6a60b3d5fb368c970ab5",
     "url": "https://enchantecom.com/index.html"
   },
   {
-    "revision": "0d07a3aaea9b8502e6a9",
-    "url": "https://enchantecom.com/static/css/main.b99fcaff.chunk.css"
+    "revision": "969e1657eea6f29f7c24",
+    "url": "https://enchantecom.com/static/css/main.37794cae.chunk.css"
   },
   {
     "revision": "92ad765321f9c1bf85ec",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://enchantecom.com/static/js/2.a80d3dd1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d07a3aaea9b8502e6a9",
-    "url": "https://enchantecom.com/static/js/main.903449ec.chunk.js"
+    "revision": "969e1657eea6f29f7c24",
+    "url": "https://enchantecom.com/static/js/main.008ba4fc.chunk.js"
   },
   {
     "revision": "711d72ff98c418fc4f8f",
