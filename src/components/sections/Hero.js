@@ -78,7 +78,7 @@ const Hero = ({
 										tag="a"
 										color="primary"
 										wideMobile
-										href="https://apps.shopify.com/partners/ecom-elevate"
+										href="https://apps.shopify.com/partners/enchant-ecom"
 									>
 										See us on Shopify
 									</Button>
